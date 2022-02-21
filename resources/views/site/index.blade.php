@@ -5,12 +5,7 @@
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
 </head>
 <body>
-    <div class="construction">
-        <div>
-{{--            <h1>we are under construction of our new website</h1>--}}
-{{--            <small>Soon we will bring news</small>--}}
-        </div>
-    </div>
+    <div class="construction"></div>
 </body>
 </html>
 
