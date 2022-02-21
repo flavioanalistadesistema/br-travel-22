@@ -4,7 +4,11 @@
         <div class="col-lg-4 col-sm-4">
             <label></label>
             <div class="form-field">
-                <select name="origin_budgets" id="origin_budgets" data-placeholder="Origin" class="autoCompleteAeroporte form-control {{$errors->has('origin_budgets') ? 'border-error-budgets': ''}}">
+                <select
+                    name="origin_budgets"
+                    id="origin_budgets"
+                    data-placeholder="Origin"
+                    class="autoCompleteAeroporte form-control {{$errors->has('origin_budgets') ? 'border-error-budgets': ''}}">
                 </select>
                 @if ($errors->has('origin_budgets'))
                     <li class="error_budgets">{{ $errors->first('origin_budgets') }}</li>
